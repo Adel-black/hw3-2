@@ -1,8 +1,8 @@
 public class BmiService {
 
-    public int calculate(int mass) {
+    public int calculate(int imd) {
+        int mass = 60;
         int high = 170;
-        int imd = mass / high;
-        return imd;
+        return mass / high;
     }
 }

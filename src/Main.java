@@ -3,7 +3,7 @@ public class Main {
         BmiService service = new BmiService();
         int mass = 60;
         int high = 175;
-        int imd = service.calculate(mass);
-        System.out.println(imd);
+        int index = service.calculate(mass/high);
+        System.out.println(mass/high);
     }
 }
